@@ -45,7 +45,7 @@ function displayImages(images) {
     // Create an image element
     const imageElement = document.createElement("img");
     imageElement.src = imageSrc;
-    imageElement.style.width = "400px"
+    imageElement.style.width = "100%"
     imageElement.style.display = "block"
     imageElement.style.margin = "auto"
 
@@ -58,7 +58,7 @@ function displayImages(images) {
       removeImageByIndex(index);
     });
 
-    buttonElement.style.width = "400px"
+    buttonElement.style.width = "100%"
     buttonElement.style.height = "120px"
     buttonElement.style.backgroundColor = "black"
     buttonElement.style.color = "white"
